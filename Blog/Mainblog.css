@@ -1,0 +1,300 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Russo One', sans-serif;
+
+
+}
+hr{
+	margin: 0;
+	padding: 0;
+
+}
+ul{
+	list-style-type: decimal;
+	color: white;
+	font-size: 20px;
+}
+li{
+	padding: 0;
+	margin: 0;
+}
+h4{
+	margin: 10px;
+}
+.header{
+	background-image: url(../MRX/hello-world.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+	padding-top: 20px;
+
+}
+.Logo{
+	max-width:50px;
+	margin-right: 20px;
+	margin-top: 10px;
+	border-radius: 50%;
+}
+.header_block{
+	margin: 0 auto;
+	max-width: 90vw;
+}
+.title{
+	display: flex;
+	align-items: center;
+}
+.title h3{
+	color: white;
+	font-size: 25px;
+	font-weight: 200;	
+}
+.Logo_text{
+	color: #1B1B1B;
+	font-size: 40px;
+	font-weight: 400;
+	
+}
+.main_text{
+	color: #1B1B1B;
+	font-size: 150px;
+	letter-spacing: 30px;
+	text-align: center;
+	padding-top: 200px;
+
+}
+.courses{
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+	 align-items: center;
+	 justify-content: center;
+	 background-color: #1B1B1B;
+	 padding:20px 0 100px 0;
+}
+
+.courses .tr{
+	font-family: 'Commissioner', sans-serif;
+	color:#fff;
+	font-size: 40px;
+	font-weight: 400;
+}
+
+.courses .line{
+	width: 90vw;
+}
+.course{
+	display: flex;
+	justify-content: center;
+	border:1px white solid;
+	margin-top: 30px;
+	transition: 0.3s;
+
+}
+.course:hover{
+	transition: 0.2s;
+	margin: 50px 0 50px 0;
+	box-shadow: 21px 21px 4px 0px rgba(50, 50, 50, 1);
+
+}
+.course img{
+	max-width: 40vw;
+
+}
+.course_text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	text-align: center;
+	width: 25vw;
+	padding: 10px 20px;
+
+}
+.course_text h2{
+	font-family: 'Russo One', sans-serif;
+	color:#EF463E;
+	font-size: 40px;
+	font-weight: 400;
+	margin-bottom: 0;
+
+}
+.course_text h3{
+	font-family: 'Commissioner', sans-serif;
+	color: white;
+	font-size: 25px;
+	margin-bottom: 0;
+
+}
+.course_text h4{
+	font-family: 'Commissioner', sans-serif;
+	color: white;
+	font-size: 20px;
+	text-align: left;
+}
+.bottom{
+	font-family: 'Russo One', sans-serif;
+	color:#EF463E;
+	font-size: 30px;
+	font-weight: 400;
+	padding: 5px 20px;
+	border:2px solid #EF463E;
+	border-radius: 10px;
+	transition: 0.5s;
+	text-decoration: none;
+}
+.bottom:hover{
+	transition: 0.5s;
+	color:white;
+	border-color: white;
+	padding: 5px 50px;
+	border-radius: 50px;
+}
+.Main{
+	text-align: center;
+	background-color: #1B1B1B;
+	margin: 0;
+	padding: 50px 0;
+	font-family: 'Commissioner', sans-serif;
+	color:#fff;
+	font-size: 50px;
+	font-weight: 400;
+}
+.projects{
+	display: flex;
+	flex-direction: column;
+
+}
+.projects img{
+	width: 25vw;
+	border:1px #1B1B1B solid;
+	transition: 0.5s;
+}
+.projects img:hover{
+	transition: 0.5s;
+	border:1px white solid;
+}
+.project_row{
+	display: flex;
+}
+.proj{
+	display: flex;
+	background-color:#1B1B1B;
+}
+.proj_text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 25vw;
+	border:1px #1B1B1B solid;
+	transition: 0.5s;
+
+}
+.proj_text:hover{
+	border:1px white solid;
+	transition: 0.5s;
+}
+.proj_text h2{
+	font-family: 'Commissioner', sans-serif;
+	font-weight: 200;
+	color:#EF463E;
+	font-size: 40px;
+	font-weight: 400;
+	margin: 0;
+
+}
+.proj_text h3{
+	font-family: 'Commissioner', sans-serif;
+	color: white;
+	font-size: 25px;
+	
+}
+.news{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #EF463E;
+}
+
+.news img {
+	width: 100%;
+}
+.news_block{
+	display: flex;
+	
+}
+.news_article{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #1B1B1B;
+	text-align: center;
+	transition: 0.5s;
+	border:1px #1B1B1B solid;
+
+}
+.news_article:hover{
+	border:1px white solid;
+	transition: 0.5s;
+
+	
+}
+.art{
+	display: flex;
+	padding: 50px;
+
+
+}
+.news h2{
+	font-family: 'Commissioner', sans-serif;
+	font-weight: 200;
+	color:#EF463E;
+	font-size: 40px;
+	font-weight: 200;
+	margin: 0;
+}
+.news h3{
+	font-family: 'Commissioner', sans-serif;
+	color: white;
+	font-size: 20px;
+	font-weight: 200;
+	width: 20vw;
+	
+}
+.news h1 {  
+	color: #1B1B1B;
+	font-family: 'Russo One', sans-serif;
+	font-weight: 200;
+	font-size: 50px;
+
+}
+footer{
+	background-color: #EF463E;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+}
+footer h4{
+	margin: 0;
+	font-weight: 200;
+}
+.society{
+	width: 20vw;
+	display: flex;
+	justify-content: space-around;
+
+}
+.society img{
+	padding: 10px;
+	width:30px;	
+	transition: 0.5s;
+}
+.society img:hover{
+	padding: 0;
+	width:35px;	
+	transition: 0.5s;
+}
