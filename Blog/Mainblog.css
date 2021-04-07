@@ -241,6 +241,9 @@ h4{
 
 	
 }
+.news_article .bottom{
+	margin-bottom: 20px;
+}
 .art{
 	display: flex;
 	padding: 50px;
